@@ -13,7 +13,7 @@ int main()
     {
         cin>>b[i];
     }
-    int i=0,j=0,k=1;
+    int i=0,j=0,k=0;
     while(i<n&&j<m)
     {
         if(a[i]<=b[j])
@@ -36,6 +36,8 @@ int main()
         c[k]=a[j];
         j++;k++;
     }
-
-
+    for(int i=0;i<m+n;i++)
+    {
+        cout<<c[i]<<" ";
+    }
 }
