@@ -2,7 +2,7 @@
 using namespace std;
 void merger (int a[],int s,int e)
 {
-   int mid=(s+e)/2;//s+(e-s)/2
+   int mid=(s+e-1)/2;//s+(e-s)/2
    int i=s,j=mid+1,k=0;
    int temp[100];
    while(i<=mid&&j<=e)
